@@ -1,0 +1,184 @@
+@import url("https://use.typekit.net/hkl3oqw.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap");
+
+::selection {
+  background-color: #09f9b6;
+  color: #2e2e2e;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: -apple-system, museo-sans, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #adb5bd;
+}
+
+.facebook-login-button {
+  background-color: #3b5998;
+  padding: 12px 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  display: flex;
+}
+
+.facebook-login-button__text {
+  padding-left: 15px;
+}
+
+/**
+ * Homepage
+ */
+
+.home-container {
+  max-width: 960px;
+  margin: 100px auto;
+}
+
+.home-heading {
+  color: #6672e5;
+  font-size: 4rem;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.home-text,
+.home-container p {
+  color: #2e2e2e;
+  font-size: 1.4rem;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.home-container strong {
+  font-weight: 600;
+}
+
+/**
+ * Home form
+ */
+
+.home-form {
+  width: 100%;
+  background-color: #f6f9fc;
+  /* box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.1) inset; */
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.home-registration-options {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-email-button {
+  background-color: #6672e5;
+}
+
+.home-form .form-container {
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-form section {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-form .form-item {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-form .form-item--visible {
+  height: 88px;
+}
+
+.home-input {
+  display: block;
+  margin: 10px 0 20px 0;
+  width: 250px;
+  padding: 10px 14px;
+  font-size: 1em;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.home-input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.home-label {
+  color: #6b7c93;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  align-self: flex-start;
+  padding-right: 10px;
+}
+
+.home-button {
+  white-space: nowrap;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background-color: #6772e5;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  margin-top: 10px;
+}
+
+.home-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.home-email-button {
+  align-self: center;
+  margin-top: 0;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.hide-stripe {
+  display: none;
+}
